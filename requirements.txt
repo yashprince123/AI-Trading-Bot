@@ -1,0 +1,5 @@
+alpaca-py
+lumibot
+python-dotenv
+requests
+tzdata

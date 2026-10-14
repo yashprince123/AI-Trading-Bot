@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Python and editor artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Private account data, generated reports, and archives
+*.db
+*.db-*
+*.sqlite*
+logs/
+sessions/
+*.log
+*.csv
+*.html
+*.zip
+*.bak
